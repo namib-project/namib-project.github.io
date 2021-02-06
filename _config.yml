@@ -1,5 +1,7 @@
 title: NAMIB – Network Access Makes IoT Better
 description: An undergradute project at the University of Bremen 
+github:
+  is_project_page: false
 plugins:
   - jekyll-relative-links
 relative_links:
