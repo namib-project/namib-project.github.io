@@ -1540,10 +1540,10 @@ negotiator@0.6.2:
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.2.tgz#feacf7ccf525a77ae9634436a64883ffeca346fb"
   integrity sha512-hZXc7K2e+PgeI1eDBe/10Ard4ekbfrrqG8Ep+8Jmf4JID2bNg7NvCPOZN+kfF574pFQI7mum2AUqDidoKqcTOw==
 
-next-translate@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/next-translate/-/next-translate-1.0.6.tgz#746f4dc5504f00c31a0fd9a934b0fcea03430f59"
-  integrity sha512-CI/IIPLZVcilXP8XxLSfJ/jP8LQkrYBeiXMZvCYZDMvixwHMz8qAmvlcDsxvsfntrCSW15+QNFp10J8jSuwcAw==
+next-translate@0.18.0:
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/next-translate/-/next-translate-0.18.0.tgz#ef5d6eb8ee5a2a46e78427a3ef3eb30c5a5089ac"
+  integrity sha512-JzUtUokMuCX4SobKdjV8UXuOIwDYVtfRiqA881wJ7ncbX0gZNqQsdIwUWot/HOLVNh8igEQ51TKnjqLAcR/g3w==
 
 next@10.0.9:
   version "10.0.9"

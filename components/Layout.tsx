@@ -1,8 +1,7 @@
 import Head from "next/head";
-import Link from "next/link";
+import Link from "next-translate/Link";
 import useTranslation from "next-translate/useTranslation";
 import { classes } from "../utils/misc";
-import setLanguage from "next-translate/setLanguage"
 
 interface ILayout {
     children: any,
@@ -11,7 +10,7 @@ interface ILayout {
 }
 
 const Layout = ({ children, title, childrenInScreenVH }: ILayout) => {
-    const { t, lang } = useTranslation("common") // default namespace (optional)
+    const { t, lang } = useTranslation();
 
     return (
         <>
@@ -33,9 +32,9 @@ const Layout = ({ children, title, childrenInScreenVH }: ILayout) => {
                             </a>
                         </Link>
                         <div className="text-2xl ml-6">
-                            <span onClick={async () => await setLanguage("en")} className={ classes("cursor-pointer hover:font-bold", lang === "en" && "font-bold") }>EN</span>
+                            <Link href="/" lang={"en"} key={"en"}><span className={ classes("cursor-pointer hover:font-bold", lang === "en" && "font-bold") }>EN</span></Link>
                             <span className="mx-2">/</span>
-                            <span onClick={async () => await setLanguage("de")} className={ classes("cursor-pointer hover:font-bold", lang === "de" && "font-bold") }>DE</span>
+                            <Link href="/" lang={"de"} key={"de"}><span className={ classes("cursor-pointer hover:font-bold", lang === "de" && "font-bold") }>DE</span></Link>
                         </div>
                     </nav>
                     { childrenInScreenVH }
@@ -56,11 +55,11 @@ const Layout = ({ children, title, childrenInScreenVH }: ILayout) => {
                 </div>
                 <div className="flex items-center space-x-16 text-white-soft text-3xl font-medium">
                     <a className="text-white-soft border-b-4 border-transparent hover:border-white-soft transition duration-100" href="https://www.informatik.uni-bremen.de/projekttag/2021/">
-                        { t`projekttag.title` }
+                        { t`common:projekttag.title` }
                     </a>
                     <Link href="/imprint">
                         <a className="text-white-soft border-b-4 border-transparent hover:border-white-soft transition duration-100">
-                            { t`imprint.title` }
+                            { t`common:imprint.title` }
                         </a>
                     </Link>
                 </div>
