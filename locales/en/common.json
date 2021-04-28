@@ -1,0 +1,38 @@
+{
+    "hero": {
+        "title": "We aim to improve the security and interoperability of devices in the <0>Internet of Things (IoT)</0>.",
+        "subtitle": "A bachelor project at the University of Bremen."
+    },
+    "section-two": {
+        "title": "Software that makes IoT security more accessible",
+        "subtitle": "For this, we looked in particular at two standards for the \"self-description\" of IoT devices.",
+        "list": {
+            "0": "A <0>Manufacturer Usage Description (MUD)</0> allows devices to specify what communication authority they require, which can be used to automatically configure firewalls and other security mechanisms.",
+            "1": "These measures can prevent undesirable as well as harmful behavior of IoT devices.",
+            "2": "For the implementation of <0>MUD</0>, we have developed suitable components that, on the one hand, take care of the configuration, but also allow manual device management via a front end.",
+            "3": "By means of our \"Legacy-Service\", older devices without <0>MUD</0> support can be taken into account aswell."
+        }
+    },
+    "section-three": {
+        "title": "What about interoperability?",
+        "description": "To improve interoperability, we primarily looked at the <0>Thing Descriptions (TDs)</0> of the <1>Web of Things</1> standard, which are standardized interface descriptions intended to facilitate interaction between devices and make them vendor-independent."
+    },
+    "section-four": {
+        "title": "And what can be done with it?",
+        "description": "Both approaches are illustrated using a weather station demonstrator that automatically finds and reads matching sensors based on their <0>TD</0>. Matching <1>MUDs</1> are used to grant the devices only the necessary communication authority in the process, which can be visualized in the frontend and adjusted if necessary."
+    },
+    "cta": {
+        "title": "Sounds Interesting?",
+        "button-label": "To the digital project day"
+    },
+    "imprint": {
+        "title": "Imprint",
+        "contact-inquiries": "Contact requests to",
+        "enable-js": "Enable JavaScript to view email address"
+    },
+    "projekttag": {
+        "title": "Project day",
+        "redirecting": "Redirecting...",
+        "no-js-click-here": "Click here if you have JavaScript disabled:"
+    }
+}

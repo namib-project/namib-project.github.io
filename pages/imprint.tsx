@@ -1,10 +1,11 @@
 import Layout from "../components/Layout";
-import Button, { ButtonSize } from "../components/Button";
 import { useEffect, useState } from "react";
+import useTranslation from "next-translate/useTranslation";
 
 const IndexPage = () => {
+    const { t, lang } = useTranslation("common") // default namespace (optional)
 
-    const [mailLink, setMailLink] = useState<any>(<span className="italic text-red-400">enable JavaScript to view email address</span>);
+    const [mailLink, setMailLink] = useState<any>(<span className="italic text-red-400">{ t`imprint.enable-js` }</span>);
 
     useEffect(() => {
         setMailLink(<a className="text-blue-namib" href="mailto:namib@informatik.uni-bremen.de">namib@informatik.uni-bremen.de</a>)
@@ -13,9 +14,9 @@ const IndexPage = () => {
     return (
         <Layout childrenInScreenVH={ (
             <section>
-                <h1 className="mb-8 md:mb-16 max-w-4xl xl:max-w-7xl">Impressum</h1>
+                <h1 className="mb-8 md:mb-16 max-w-4xl xl:max-w-7xl">{ t`imprint.title` }</h1>
                 <p className="font-medium text-xl md:text-3xl leading-snug md:leading-snug mb-6">
-                    Kontaktanfragen an { mailLink }
+                    { t`imprint.contact-inquiries` }{" "}{ mailLink }
                 </p>
                 <p className="font-medium text-xl md:text-3xl leading-snug md:leading-snug">
                     Universität Bremen <br/>

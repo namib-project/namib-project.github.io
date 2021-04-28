@@ -1,0 +1,38 @@
+{
+    "hero": {
+        "title": "Wir haben das Ziel, die Sicherheit und Interoperabilität von Geräten im <0>Internet of Things (IoT)</0> zu verbessern.",
+        "subtitle": "Ein Bachelor-Projekt an der Universität Bremen."
+    },
+    "section-two": {
+        "title": "Software, welche IoT-Sicherheit zugänglicher macht",
+        "subtitle": "Hierfür haben wir uns insbesondere mit zwei Standards für die \"Selbstbeschreibung\" von IoT-Geräten beschäftigt.",
+        "list": {
+            "0": "Über eine <0>Manufacturer Usage Description</0> (MUD) können Geräte angeben, welche Kommunikationsbefugnisse sie benötigen, was für die automatische Konfiguration von Firewalls und andere Sicherheitsmechanismen dienen kann.",
+            "1": "Durch diese Maßnahmen kann unerwünschtes sowie schädliches Verhalten von IoT-Geräten unterbunden werden.",
+            "2": "Für die Umsetzung von <0>MUD</0> haben wir passende Komponenten entwickelt, die einerseits die Konfiguration übernehmen, aber auch die manuelle Geräteverwaltung über ein Frontend erlauben.",
+            "3": "Mittels unseres \"Legacy-Services\" können ältere Geräte ohne MUD-Unterstützung berücksichtigt werden."
+        }
+    },
+    "section-three": {
+        "title": "Was ist mit der Interoperabilität?",
+        "description": "Für die Verbesserung der Interoperabilität haben wir uns vor allem mit den <0>Thing Descriptions</0> (TDs) des <1>Web of Things</1>-Standards auseinandergesetzt, die als standardisierte Schnittstellenbeschreibungen die Interaktion zwischen Geräten erleichtern und herstellerunabhängig gestalten sollen."
+    },
+    "section-four": {
+        "title": "Und was kann man damit machen?",
+        "description": "Beide Ansätze werden anhand eines Wetterstations-Demonstrators veranschaulicht, der automatisch passende Sensoren anhand ihrer <0>TD</0> findet und ausliest. Durch passende <1>MUDs</1> werden den Geräten dabei nur die notwendigen Kommunikationsbefugnisse eingeräumt, die sich im Frontend visualisieren und ggf. anpassen lassen."
+    },
+    "cta": {
+        "title": "Klingt Interessant?",
+        "button-label": "Zum digitalen Projekttag"
+    },
+    "imprint": {
+        "title": "Impressum",
+        "contact-inquiries": "Kontaktanfragen an",
+        "enable-js": "Aktivieren Sie JavaScript, um die E-Mail Adresse anzuzeigen"
+    },
+    "projekttag": {
+        "title": "Projekttag",
+        "redirecting": "Umleitung...",
+        "no-js-click-here": "Klicken Sie hier, wenn Sie JavaScript deaktiviert haben:"
+    }
+}
