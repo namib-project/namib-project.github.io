@@ -27,6 +27,15 @@ module.exports = {
             fontFamily: {
                 sans: ["Inter var", ...defaultTheme.fontFamily.sans],
             },
+            keyframes: {
+                zoompulse: {
+                    '0%, 100%': { transform: 'scale(1)' },
+                    '50%': { transform: 'scale(1.2)' },
+                }
+            },
+            animation: {
+                zoompulse: 'zoompulse 2s ease-in-out infinite',
+            }
         },
     },
     variants: {

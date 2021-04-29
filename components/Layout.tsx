@@ -24,8 +24,8 @@ const Layout = ({ children, title, childrenInScreenVH }: ILayout) => {
                 <link rel="manifest" href="/site.webmanifest"/>
             </Head>
             <div className="w-full px-[5vw]">
-                <div className={ childrenInScreenVH ? "mb-96 md:mb-0 md:h-screen" : "" }>
-                    <nav className="py-12 flex justify-between items-center">
+                <div className={ childrenInScreenVH ? "mb-96 md:mb-0 md:h-screen flex flex-col justify-between" : "" }>
+                    <nav className="py-12 flex justify-between items-center flex-shrink-0 flex-grow-0">
                         <Link href="/">
                             <a>
                                 <img src="/namib-logo.svg" className="w-auto h-20 object-fit" alt="namib logo"/>
