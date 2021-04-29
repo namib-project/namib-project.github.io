@@ -25,16 +25,18 @@ const Layout = ({ children, title, childrenInScreenVH }: ILayout) => {
             </Head>
             <div className="w-full px-[5vw]">
                 <div className={ childrenInScreenVH ? "mb-96 md:mb-0 md:h-screen flex flex-col justify-between" : "" }>
-                    <nav className="py-12 flex justify-between items-center flex-shrink-0 flex-grow-0">
+                    <nav className="py-12 flex flex-col md:flex-row justify-between items-center flex-shrink-0 flex-grow-0">
                         <Link href="/">
                             <a>
                                 <img src="/namib-logo.svg" className="w-auto h-20 object-fit" alt="namib logo"/>
                             </a>
                         </Link>
-                        <div className="text-2xl ml-6">
+                        <div className="text-2xl mt-8 md:mt-0 md:ml-6">
                             <Link href="/" lang={"en"} key={"en"}><span className={ classes("cursor-pointer hover:font-bold", lang === "en" && "font-bold") }>EN</span></Link>
                             <span className="mx-2">/</span>
                             <Link href="/" lang={"de"} key={"de"}><span className={ classes("cursor-pointer hover:font-bold", lang === "de" && "font-bold") }>DE</span></Link>
+                            <span className="mx-2">/</span>
+                            <Link href="/" lang={"ru"} key={"ru"}><span className={ classes("cursor-pointer hover:font-bold", lang === "ru" && "font-bold") }>RU</span></Link>
                         </div>
                     </nav>
                     { childrenInScreenVH }
