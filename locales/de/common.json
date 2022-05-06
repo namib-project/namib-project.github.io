@@ -1,7 +1,7 @@
 {
     "hero": {
         "title": "Wir haben das Ziel, die Sicherheit und Interoperabilität von Geräten im <0>Internet of Things (IoT)</0> zu verbessern.",
-        "subtitle": "Ein Bachelor-Projekt an der Universität Bremen."
+        "subtitle": "Ein Master-Projekt an der Universität Bremen."
     },
     "section-two": {
         "title": "Software, welche IoT-Sicherheit zugänglicher macht",
@@ -18,12 +18,15 @@
         "description": "Für die Verbesserung der Interoperabilität haben wir uns vor allem mit den <0>Thing Descriptions</0> (TDs) des <1>Web of Things</1>-Standards auseinandergesetzt, die als standardisierte Schnittstellenbeschreibungen die Interaktion zwischen Geräten erleichtern und herstellerunabhängig gestalten sollen."
     },
     "section-four": {
-        "title": "Und was kann man damit machen?",
-        "description": "Beide Ansätze werden anhand eines Wetterstations-Demonstrators veranschaulicht, der automatisch passende Sensoren anhand ihrer <0>TD</0> findet und ausliest. Durch passende <1>MUDs</1> werden den Geräten dabei nur die notwendigen Kommunikationsbefugnisse eingeräumt, die sich im Frontend visualisieren und ggf. anpassen lassen."
+        "title": "Welche Komponenten sind Teil von NAMIB?",
+        "description": "TODO"
     },
     "cta": {
         "title": "Klingt Interessant?",
-        "button-label": "Zum digitalen Projekttag"
+        "button-label": {
+            "bachelor": "Zum digitalen Bachelor Projekttag",
+            "master": "Zum Master Projekttag (soon™)"
+        }
     },
     "imprint": {
         "title": "Impressum",
@@ -31,7 +34,8 @@
         "enable-js": "Aktivieren Sie JavaScript, um die E-Mail Adresse anzuzeigen"
     },
     "projekttag": {
-        "title": "Projekttag",
+        "bachelor-title": "Bachelor Projekttag",
+        "master-title": "Master Projekttag (soon™)",
         "redirecting": "Umleitung...",
         "no-js-click-here": "Klicken Sie hier, wenn Sie JavaScript deaktiviert haben:"
     }

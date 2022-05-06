@@ -18,7 +18,7 @@ const IndexPage = () => {
                 <p className="font-medium text-xl md:text-3xl leading-snug md:leading-snug mb-6">
                     { t`common:imprint.contact-inquiries` }{" "}{ mailLink }
                 </p>
-                <p className="font-medium text-xl md:text-3xl leading-snug md:leading-snug">
+                <p className="font-medium text-xl md:text-3xl mb-16 leading-snug md:leading-snug">
                     Universität Bremen <br/>
                     Fachbereich 03 Informatik <br/>
                     AG Rechnernetze <br/>

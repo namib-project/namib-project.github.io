@@ -35,8 +35,6 @@ const Layout = ({ children, title, childrenInScreenVH }: ILayout) => {
                             <Link href="/" lang={"en"} key={"en"}><span className={ classes("cursor-pointer hover:font-bold", lang === "en" && "font-bold") }>EN</span></Link>
                             <span className="mx-2">/</span>
                             <Link href="/" lang={"de"} key={"de"}><span className={ classes("cursor-pointer hover:font-bold", lang === "de" && "font-bold") }>DE</span></Link>
-                            <span className="mx-2">/</span>
-                            <Link href="/" lang={"ru"} key={"ru"}><span className={ classes("cursor-pointer hover:font-bold", lang === "ru" && "font-bold") }>RU</span></Link>
                         </div>
                     </nav>
                     { childrenInScreenVH }
@@ -56,8 +54,11 @@ const Layout = ({ children, title, childrenInScreenVH }: ILayout) => {
                     </Link>
                 </div>
                 <div className="flex items-center space-x-16 text-white-soft text-3xl font-medium">
+                    <a className="text-white-soft border-b-4 border-transparent hover:border-white-soft transition duration-100" href="#">
+                        { t`common:projekttag.master-title` }
+                    </a>
                     <a className="text-white-soft border-b-4 border-transparent hover:border-white-soft transition duration-100" href="https://www.informatik.uni-bremen.de/projekttag/2021/">
-                        { t`common:projekttag.title` }
+                        { t`common:projekttag.bachelor-title` }
                     </a>
                     <Link href="/imprint">
                         <a className="text-white-soft border-b-4 border-transparent hover:border-white-soft transition duration-100">

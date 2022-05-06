@@ -15,7 +15,7 @@ module.exports = {
         extend: {
             colors: {
                 blue: {
-                    "namib": "#1C55B0",
+                    "namib": "#6b7437",
                 },
                 white: {
                     "soft": "#fbfbfb",

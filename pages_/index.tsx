@@ -80,8 +80,11 @@ const IndexPage = () => {
             </section>
             <section className="mb-64 md:mb-96">
                 <h1 className="mb-8 md:mb-16 max-w-4xl xl:max-w-7xl">{ t`common:cta.title` }</h1>
-                <a href="https://www.informatik.uni-bremen.de/projekttag/2021/">
-                    <Button size={ ButtonSize.XL }>{ t`common:cta.button-label` }</Button>
+                <a href="https://www.informatik.uni-bremen.de/projekttag/2021/" className="mr-6">
+                    <Button size={ ButtonSize.XL }>{ t`common:cta.button-label.bachelor` }</Button>
+                </a>
+                <a href="#">
+                    <Button size={ ButtonSize.XL }>{ t`common:cta.button-label.master` }</Button>
                 </a>
             </section>
         </Layout>

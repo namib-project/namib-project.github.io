@@ -1,7 +1,7 @@
 {
     "hero": {
         "title": "We aim to improve the security and interoperability of devices in the <0>Internet of Things (IoT)</0>.",
-        "subtitle": "A bachelor project at the University of Bremen."
+        "subtitle": "A master project at the University of Bremen."
     },
     "section-two": {
         "title": "Software that makes IoT security more accessible",
@@ -18,12 +18,15 @@
         "description": "To improve interoperability, we primarily looked at the <0>Thing Descriptions (TDs)</0> of the <1>Web of Things</1> standard, which are standardized interface descriptions intended to facilitate interaction between devices and make them vendor-independent."
     },
     "section-four": {
-        "title": "And what can be done with it?",
-        "description": "Both approaches are illustrated using a weather station demonstrator that automatically finds and reads matching sensors based on their <0>TD</0>. Matching <1>MUDs</1> are used to grant the devices only the necessary communication authority in the process, which can be visualized in the frontend and adjusted if necessary."
+        "title": "Which components are part of NAMIB?",
+        "description": "TODO"
     },
     "cta": {
         "title": "Sounds Interesting?",
-        "button-label": "To the digital project day"
+        "button-label": {
+            "bachelor": "To the digital Bachelor project day",
+            "master": "To the Master project day (soon™)"
+        }
     },
     "imprint": {
         "title": "Imprint",
@@ -31,7 +34,8 @@
         "enable-js": "Enable JavaScript to view email address"
     },
     "projekttag": {
-        "title": "Project day",
+        "bachelor-title": "Bachelor project day",
+        "master-title": "Master project day (soon™)",
         "redirecting": "Redirecting...",
         "no-js-click-here": "Click here if you have JavaScript disabled:"
     }
