@@ -1,0 +1,13 @@
+stages:
+  - versioning
+
+semrelease:
+  stage: versioning
+  image: s5zy/semantic-release-docker:18.0.1
+  only:
+    - main
+  variables:
+    GIT_AUTHOR_EMAIL: namib-release@tzi.de
+    GIT_COMMITTER_EMAIL: namib-release@tzi.de
+  script:
+    - semantic-release --debug
