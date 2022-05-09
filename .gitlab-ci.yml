@@ -1,0 +1,57 @@
+image: node:16.13.1
+
+include:
+  local: '.semrelease-template.yml'
+
+# Cache node_modules and yarn folder
+cache:
+  paths:
+    - node_modules/
+    - .yarn
+
+before_script:
+  - yarn config set cache-folder .yarn
+  - yarn install --frozen-lockfile
+
+stages:
+  - lint
+  - build
+  - versioning
+  - release
+
+lint:outdated:
+  stage: lint
+  allow_failure: true
+  only:
+    - merge_requests
+  script:
+    - yarn outdated
+
+lint:audit:
+  stage: lint
+  allow_failure: true
+  only:
+    - merge_requests
+    - main
+  script:
+    - yarn audit
+
+build:
+  stage: build
+  only:
+    - merge_requests
+    - main
+  script:
+    - yarn build
+
+release:
+  stage: release
+  only:
+    - /^v[0-9]{1,}\.[0-9]{1,}\.[0-9]{1,}$/
+  except:
+    - branches
+  script:
+    - VERSION="${CI_COMMIT_TAG:1}"
+    - yarn build
+    - yarn export
+    # TODO: Add build to release
