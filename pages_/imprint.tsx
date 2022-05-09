@@ -8,7 +8,7 @@ const IndexPage = () => {
     const [mailLink, setMailLink] = useState<any>(<span className="italic text-red-400">{ t`common:imprint.enable-js` }</span>);
 
     useEffect(() => {
-        setMailLink(<a className="text-blue-namib" href="mailto:namib@informatik.uni-bremen.de">namib@informatik.uni-bremen.de</a>)
+        setMailLink(<a className="text-blue-namib" href="mailto:namib-master@informatik.uni-bremen.de">namib-master@informatik.uni-bremen.de</a>)
     }, []);
 
     return (
