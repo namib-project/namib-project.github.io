@@ -25,8 +25,8 @@
         "title": "Which groups and components are part of NAMIB?",
         "hotels": {
             "title": "HOTELS",
-            "description": "The HOTELS group (Hosts Offering Things and Enforcing Local Security) has primarily dealt with the secure and interoperable usage of IoT devices. The implementations were done on the basis of the ACE-OAuth, CoRE Resource Directory and Web of Things standards. As part of the scenario, we also want to look at how new devices can be added to this infrastructure.",
-            "description2": "For this purpose, we are also dealing with the recently published standard EAP-NOOB (RFC 9140) for the integration of devices into wireless networks using out-of-band messages. Additionally, we are developing, among other things, a modification of the basic principle of EAP-NOOB called EAP-UTE.",
+            "description": "The HOTELS group (Hosts Offering Things and Enforcing Local Security) has primarily dealt with the secure and interoperable usage of IoT devices. The implementations were done on the basis of the <0>ACE-OAuth</0>, <1>CoRE Resource Directory</1> and <2>Web of Things</2> standards. As part of the scenario, we also want to look at how new devices can be added to this infrastructure.",
+            "description2": "For this purpose, we are also dealing with the recently published standard EAP-NOOB (<0>RFC 9140</0>) for the integration of devices into wireless networks using out-of-band messages. Additionally, we are developing, among other things, a modification of the basic principle of EAP-NOOB called <1>EAP-UTE</1>.",
             "authorization": {
                 "title": "Authorization server",
                 "dcaf-rs": "Implementation of ACE-OAuth  in Rust (data model integrated in CBOR/COSE).",

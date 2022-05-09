@@ -68,8 +68,21 @@ const IndexPage = () => {
                 <h1 className="mb-8 md:mb-16 max-w-4xl xl:max-w-7xl">{ t`common:components.title` }</h1>
 
                 <h2 className="font-medium text-xl md:text-5xl leading-snug md:leading-snug max-w-5xl">{ t`common:components.hotels.title` }</h2>
-                <div className="mt-4">{ t`common:components.hotels.description` }</div>
-                <div className="mt-4">{ t`common:components.hotels.description2` }</div>
+                <div className="mt-4">
+                    <Trans
+                        i18nKey="common:components.hotels.description"
+                        components={[<a className="text-blue-namib" href="https://www.ietf.org/archive/id/draft-ietf-ace-oauth-authz-46.html"/>,
+                            <a className="text-blue-namib" href="https://datatracker.ietf.org/doc/html/rfc9176"/>,
+                            <a className="text-blue-namib" href="https://www.w3.org/WoT/"/>]}
+                    />
+                </div>
+                <div className="mt-4">
+                    <Trans
+                        i18nKey="common:components.hotels.description2"
+                        components={[<a className="text-blue-namib" href="https://datatracker.ietf.org/doc/html/rfc9140"/>,
+                            <a className="text-blue-namib" href="https://www.ietf.org/id/draft-rieckers-emu-eap-ute-00.html"/>]}
+                    />
+                </div>
                 <div className="grid grid-cols-3 grid-flow-row gap-4 mt-8">
                     <div className="border border-gray-600 p-4">
                         <h3 className="font-medium text-xl md:text-2xl">{ t`common:components.hotels.authorization.title` }</h3>
