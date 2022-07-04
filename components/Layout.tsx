@@ -54,7 +54,7 @@ const Layout = ({ children, title, childrenInScreenVH }: ILayout) => {
                     </Link>
                 </div>
                 <div className="flex items-center space-x-16 text-white-soft text-3xl font-medium">
-                    <a className="text-white-soft border-b-4 border-transparent hover:border-white-soft transition duration-100" href="#">
+                    <a className="text-white-soft border-b-4 border-transparent hover:border-white-soft transition duration-100" href="https://www.informatik.uni-bremen.de/projekttag/2022_ma/de/">
                         { t`common:projekttag.master-title` }
                     </a>
                     <a className="text-white-soft border-b-4 border-transparent hover:border-white-soft transition duration-100" href="https://www.informatik.uni-bremen.de/projekttag/2021/">

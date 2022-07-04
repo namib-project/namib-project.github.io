@@ -83,7 +83,7 @@
         "title": "Klingt Interessant?",
         "button-label": {
             "bachelor": "Zum digitalen Bachelor Projekttag",
-            "master": "Zum Master Projekttag (soon™)"
+            "master": "Zum Master Projekttag"
         }
     },
     "imprint": {
@@ -93,7 +93,7 @@
     },
     "projekttag": {
         "bachelor-title": "Bachelor Projekttag",
-        "master-title": "Master Projekttag (soon™)",
+        "master-title": "Master Projekttag",
         "redirecting": "Umleitung...",
         "no-js-click-here": "Klicken Sie hier, wenn Sie JavaScript deaktiviert haben:"
     }

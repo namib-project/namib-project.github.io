@@ -163,7 +163,7 @@ const IndexPage = () => {
                 <a href="https://www.informatik.uni-bremen.de/projekttag/2021/" className="mr-6">
                     <Button size={ ButtonSize.XL }>{ t`common:cta.button-label.bachelor` }</Button>
                 </a>
-                <a href="#">
+                <a href="https://www.informatik.uni-bremen.de/projekttag/2022_ma/de/">
                     <Button size={ ButtonSize.XL }>{ t`common:cta.button-label.master` }</Button>
                 </a>
             </section>
