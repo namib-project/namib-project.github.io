@@ -23,9 +23,9 @@ const Layout = ({ children, title, childrenInScreenVH }: ILayout) => {
                 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
                 <link rel="manifest" href="/site.webmanifest"/>
             </Head>
-            <div className="w-full px-[5vw]">
+            <div className="w-full">
                 <div className={ childrenInScreenVH ? "mb-96 md:mb-0 md:h-screen flex flex-col justify-between" : "" }>
-                    <nav className="py-12 flex flex-col md:flex-row justify-between items-center flex-shrink-0 flex-grow-0">
+                    <nav className="py-12 flex flex-col md:flex-row justify-between items-center flex-shrink-0 flex-grow-0 px-[5vw]">
                         <Link href="/">
                             <a>
                                 <img src="/namib-logo.svg" className="w-auto h-20 object-fit" alt="namib logo"/>
@@ -54,7 +54,7 @@ const Layout = ({ children, title, childrenInScreenVH }: ILayout) => {
                     </Link>
                 </div>
                 <div className="flex items-center space-x-16 text-white-soft text-3xl font-medium">
-                    <a className="text-white-soft border-b-4 border-transparent hover:border-white-soft transition duration-100" href="#">
+                    <a className="text-white-soft border-b-4 border-transparent hover:border-white-soft transition duration-100" href="https://www.informatik.uni-bremen.de/projekttag/2022_ma/">
                         { t`common:projekttag.master-title` }
                     </a>
                     <a className="text-white-soft border-b-4 border-transparent hover:border-white-soft transition duration-100" href="https://www.informatik.uni-bremen.de/projekttag/2021/">

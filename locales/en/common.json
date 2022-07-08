@@ -83,7 +83,7 @@
         "title": "Sounds Interesting?",
         "button-label": {
             "bachelor": "To the digital Bachelor project day",
-            "master": "To the Master project day (soon™)"
+            "master": "To the Master project day"
         }
     },
     "imprint": {
@@ -93,7 +93,7 @@
     },
     "projekttag": {
         "bachelor-title": "Bachelor project day",
-        "master-title": "Master project day (soon™)",
+        "master-title": "Master project day",
         "redirecting": "Redirecting...",
         "no-js-click-here": "Click here if you have JavaScript disabled:"
     }
